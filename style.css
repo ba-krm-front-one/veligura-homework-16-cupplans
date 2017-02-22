@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #FBDD7E;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cupplans{
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cupplans__cofee{
+    width: 360px;
+    flex-basis: 250px;
+    height: 441px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cupplans__price{
+    font-family: Miso;
+    color:  #02995b;
+    font-size: 70px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.cupplans__title{
+    font-family: Miso;
+    color:  #333333;
+    font-size: 56px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+.cupplans__text{
+    font-family: Lato;
+    color:  #333333;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+}
