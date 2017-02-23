@@ -37,6 +37,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.cupplans__cofee:hover{
+    height: 471px;
+}
 .cupplans__price{
     font-family: Miso;
     color:  #02995b;
